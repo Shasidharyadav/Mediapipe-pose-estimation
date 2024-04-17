@@ -175,7 +175,7 @@ top: 0,
           }}
         ></canvas>
         <img
-          src="./img.png"
+          src="./src/img.png"
           alt="Image"
           style={{  position: "absolute",
           top: "40%",
