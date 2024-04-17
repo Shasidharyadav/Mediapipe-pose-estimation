@@ -3,6 +3,7 @@ import React, { useRef, useEffect, useState, useCallback } from "react";
 import * as poseAll from "@mediapipe/pose";
 import * as cam from "@mediapipe/camera_utils";
 import Webcam from "react-webcam";
+import logo from "./img.png";
 import './App.css';
 
 function App() {
@@ -175,7 +176,7 @@ top: 0,
           }}
         ></canvas>
         <img
-          src="src/img.png"
+          src= {logo}
           alt="Image"
           style={{  position: "absolute",
           top: "40%",
