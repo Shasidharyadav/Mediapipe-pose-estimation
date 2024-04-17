@@ -152,11 +152,11 @@ selfieMode: true,
       <h1>MediaPipe Pose Estimation</h1> 
     <p>Assisgnment for Internship</p>
       <p>This app demonstrates real-time pose estimation using MediaPipe.</p>
-      <Webcam
+ <Webcam
           ref={webcamRef}
           style={{
             position: "absolute",
-            top: "40%",
+top: 0,
             left: 0,
             width: "25%",
             height: "25%",
@@ -167,11 +167,11 @@ selfieMode: true,
           className="output_canvas"
           style={{
             position: "absolute",
-            top: "100%",
-            left: 0,
+            top: "40%",
+            left: "5%",
             width: "50%",
             height: "50%",
-            border: "1px solid black"
+            border: "1px solid black",
           }}
         ></canvas>
         <img
@@ -184,7 +184,7 @@ selfieMode: true,
           height: "50%",
           border: "1px solid black", }}
         />
-        <div>
+        <div style={{ color : "white"}}>
          Left angle: {leftAngle}
           <br />
           Right angle: {rightAngle}
