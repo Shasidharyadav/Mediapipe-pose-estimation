@@ -98,7 +98,7 @@ function App() {
     <center>
       <div className="App">
       <h1>MediaPipe Pose Estimation</h1> 
-    <h2 color: #cfa7a7;>Assisgnment for Internship</h2>
+    <p>Assisgnment for Internship</p>
       <p>This app demonstrates real-time pose estimation using MediaPipe.</p> 
         <Webcam
           ref={webcamRef}
