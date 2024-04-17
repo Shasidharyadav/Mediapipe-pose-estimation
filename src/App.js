@@ -178,7 +178,7 @@ top: 0,
           src="./pose_landmarks_index.png"
           alt="Image"
           style={{  position: "absolute",
-          top: "100%",
+          top: "40%",
           left: "50%",
           width: "50%",
           height: "50%",
