@@ -1,0 +1,24 @@
+/* App.css */
+
+/* Style for the App container */
+body {
+  background-color: rgb(0, 0, 0);
+}
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style for the heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #cfa7a7;
+}
+
+/* Style for the paragraph */
+p {
+  font-size: 16px;
+  color: #999999;
+  margin-bottom: 20px;
+}
