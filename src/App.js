@@ -191,10 +191,10 @@ top: 0,
           Right angle: {rightAngle}
           <br />
           <form onSubmit={handleSubmit}>
-            Left shoulder index: <input type="number" id="leftShoulderIndex" value={leftShoulderIndex} onChange={(e) => setLeftShoulderIndex(e.target.value)} />
-            Left hand index: <input type="number" id="leftHandIndex" value={leftHandIndex} onChange={(e) => setLeftHandIndex(e.target.value)} />
-            Right shoulder index: <input type="number" id="rightShoulderIndex" value={rightShoulderIndex} onChange={(e) => setRightShoulderIndex(e.target.value)} />
-            Right hand index: <input type="number" id="rightHandIndex" value={rightHandIndex} onChange={(e) => setRightHandIndex(e.target.value)} />
+            Left index - 1: <input type="number" id="leftShoulderIndex" value={leftShoulderIndex} onChange={(e) => setLeftShoulderIndex(e.target.value)} />
+            Left index - 2: <input type="number" id="leftHandIndex" value={leftHandIndex} onChange={(e) => setLeftHandIndex(e.target.value)} />
+            Right index - 1: <input type="number" id="rightShoulderIndex" value={rightShoulderIndex} onChange={(e) => setRightShoulderIndex(e.target.value)} />
+            Right index - 2: <input type="number" id="rightHandIndex" value={rightHandIndex} onChange={(e) => setRightHandIndex(e.target.value)} />
             <button type="submit">Submit</button>
           </form>
         </div>
