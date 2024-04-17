@@ -10,11 +10,16 @@ body {
 }
 
 /* Style for the heading */
-h1,h2 {
+h1 {
   font-size: 24px;
   margin-bottom: 10px;
   color: #cfa7a7;
 }
+h2 {
+  margin-bottom: 5px
+  color: #cfa7a7;
+}
+
 
 /* Style for the paragraph */
 p {
