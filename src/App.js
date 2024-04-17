@@ -181,7 +181,7 @@ top: 0,
           style={{  position: "absolute",
           top: "40%",
           left: "50%",
-          width: "50%",
+          width: "40%",
           height: "50%",
           border: "1px solid black", }}
         />
